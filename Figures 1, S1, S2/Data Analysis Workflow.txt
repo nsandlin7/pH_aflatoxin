@@ -1,0 +1,10 @@
+Raw data files contain the readings for a 96-well plate with various conditions/replicates that can be found in the Plate Layout excel file.
+
+General analysis of the data:
+	1. Run the raw data file through ReadRawData.m
+	2. Load and run the resulting file through ConversionofRFUtoToxin.m
+	3. Load and run the resulting file through CalculateToxinRemovalRates.m
+
+Resulting information:
+	2. Toxin concentrations for each timepoint based on a calibration curve
+	3. Degradation efficiency and degradation curves
